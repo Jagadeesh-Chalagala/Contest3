@@ -1,0 +1,34 @@
+nav button{
+    width: 77px;
+}
+nav input{
+    border-radius: 4px;
+}
+
+.menu{
+    display:none
+}
+.companyname{
+    display: none;
+}
+nav{
+    background-color: white;
+}
+
+@media (max-width:393px) {
+    .menu{
+        display: block;
+    }
+    .companyname{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .mycard{
+        display: block;
+    }
+}
